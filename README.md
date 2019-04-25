@@ -1,8 +1,17 @@
+Clone this repo
+
 Verify that Node.js is installed. If you see anything when you run which npm in a terminal, it is. If not, follow the instructions at nodejs.org to install.
+
 Install live-server: npm install -g live-server
+
 Move your terminal to where your pages live: cd <path-to-content>
+
 Start the server by running this command: live-server
+
 Open localhost:8080 in a browser.
+
+
+Once the app is started in your browser:
 
 You will be greeted with the second generation of the sample problem given already on screen.
 
