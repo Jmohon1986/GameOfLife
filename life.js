@@ -110,13 +110,13 @@ const nextGeneration = (generation = [[1, 1, 1],[1, 0, 0],[1, 1, 0]]) => {
             $(`#${i}`).append(`<div><img style="height: 40px" src="https://cdn1.iconfinder.com/data/icons/faces-and-emotions/32/emotion_face_avatar_emoji_dead_or_alive-512.png" /></div>`)
           } else {
             $(`#${i}`).append(`<div><img style="height: 40px" src="https://cdn2.iconfinder.com/data/icons/faces-and-emotions/32/happy_smile_face-512.png" /></div>`)
-
           }
         });
           
       });
  // return the next generation
       previous = nextGen;
+      $('#result').empty().text(JSON.stringify(previous));
       return nextGen;
     };
     
